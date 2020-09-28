@@ -2,8 +2,8 @@ pipeline {
   environment {
     registry = 'registry.gitlab.com'
     registryCredential = 'gitlab-registry'
-    repository = 'bhearn/jenkins-demo'
-    imageLine = 'registry.gitlab.com/bhearn/jenkins-demo:latest'
+    repository = 'rmccarth/jenkins-demo'
+    imageLine = 'registry.gitlab.com/slixperi/jenkins-demo:latest'
   }
   agent any
   stages {
